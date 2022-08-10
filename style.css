@@ -1,0 +1,638 @@
+/* =============================
+
+    GENERAL STYLES
+
+=============================*/
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* Single-direction margin declaration to establish vertical rhythm. */
+
+
+
+body {
+   font-family:'Montserrat', sans-serif;
+   font-size: 0.75rem;
+   background-color: #F4F3F5;
+
+}
+
+/* =============================
+
+    HEADER STYLES
+
+=============================*/
+
+.header {
+    background: #6200EA 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 10.42vh;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.header a {
+    color: #000;
+    background:  #FFFFFF 0% 0% no-repeat padding-box;
+    padding: 1.63vh 1.5rem;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+    border-radius: 24px;
+    color: #6200EA;
+    letter-spacing: 0.16vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 17.94vw;
+}
+
+.header-button {
+    float:left;
+    position: relative;
+    top: 30px;
+    
+}
+
+.logo {
+    width: 13.18vw;
+    height: 6.51vh;
+    margin-top: 1.95vh;
+    position: relative;
+    left: -15%; 
+}
+
+/* =============================
+
+    NAVBAR STYLES
+
+=============================*/
+
+
+.div-cover {
+    background-color: #FFFFFF;
+}
+
+.div-cover-text {
+    margin-left: 17.94%;
+    margin-bottom: 4.29vh;
+    margin-right: 17.94%;
+    height: 10.42vh;
+}
+
+.navbutton {
+    display: inline-block;
+    margin-right: 4.801%;
+    color: #211138;
+    font-weight:  bold;
+    text-decoration: none;
+    letter-spacing: 0.16vw;
+    padding-top: 4.296875vh;
+    padding-bottom: 4.296875vh;
+    text-transform: uppercase;
+
+}
+
+#lastmenu {
+    margin-right: 0;
+}
+
+
+
+#active {
+ color: #6200EA;
+ border-bottom: 3px solid #6200EA;
+}
+
+/* =============================
+
+    MAIN-ASIDE STYLES
+
+=============================*/
+
+.main-aside {
+    background-color: #F4F3F5;
+}
+
+
+.main-aside-text {
+    margin-left: 17.94%;
+    margin-right: 17.94%;
+    position: relative;
+}
+
+
+
+
+.aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 41vw;
+}
+
+/* =============================
+
+    MAIN STYLES
+
+=============================*/
+
+.main {
+    margin-right: 20.13rem;
+}
+
+.first-post {
+    margin-bottom: 3.91vh;
+    background: url("assets/palma.jpg") no-repeat center/cover;
+    border-radius: 15px;
+}
+
+.first-post-text {
+    margin: 1.245rem;
+}
+
+.date-comment {
+    margin-top: 1.245rem;
+    margin-bottom: 1.95vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.16vw;
+    color: #FFFFFF;
+}
+
+#first-date-comment {
+    padding-top: 1.245rem;
+}
+
+.date-comment a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 5.21vh;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 1.95vh;
+}
+
+.paragraph {
+    color: #FFFFFF;
+    font-size: 2.604vh;
+    margin-bottom: 1.95vh;
+}
+
+.post-button {
+    display: inline-block;
+   
+    letter-spacing: 0.16vw;
+    text-transform: uppercase;
+    padding: 1.63vh 1.5rem;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 1.245rem;
+    border-radius: 24px;
+    margin-right: 1.66rem;
+}
+
+.post-button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* =============================
+
+    MAIN - MENU STYLES
+
+=============================*/
+
+
+.menu img {
+    width: 8.785vw;
+    height: 15.625vh;
+    border-radius: 15px;
+}
+.menu-first {
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-right: 49.95%;
+
+}
+.menu-first-pic img {
+    float: left;
+    width: 8.785vw;
+    height: 15.625vh;
+    margin: 1.464vw;
+    border-radius: 15px;
+}
+
+.pic-paragh {
+    margin-top: 2.604vh;
+    margin-right: 1.464vw;
+}
+
+.pic-paragh h3 {
+    margin-bottom: 1.953vh;
+    color: #6200EA;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.16vw;
+    
+}
+
+.pic-paragh a {
+    text-decoration: none;
+}
+
+.menu-second {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-right: 49.95%;
+    float: right;
+    position: absolute;
+    right: -50%;
+    top: 0;
+    margin-left: 20.13vw;
+     
+}
+
+.menu-second-pic img {
+    float: left;
+    width: 8.785vw;
+    height: 15.625vh;
+    margin: 1.464vw;
+    border-radius: 15px;
+}
+
+.second-pic-paragh {
+    margin-top: 2.604vh;
+    margin-right: 1.464vw;
+}
+
+.second-pic-paragh h3 {
+    margin-bottom: 1.953vh;
+    color: #6200EA;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.16vw;
+}
+
+.second-pic-paragh a {
+    text-decoration: none;
+}
+
+.menus {
+    position: relative;
+}
+
+
+/* =============================
+
+    SECOND POST STYLES
+
+=============================*/
+
+
+.second-post {
+    margin-bottom: 3.91vh;
+    background: #FFFFFF no-repeat center/cover;
+    border-radius: 15px;
+}
+
+.second-post-text {
+    margin: 1.245rem;
+}
+
+#second-date-comment {
+  padding-top: 1.245rem;  
+}
+
+
+.second-post-text h1 {
+    color: #211138;
+}
+
+.second-post-paragh {
+    color: #211138;
+}
+
+.anchor {
+    color: #B2ACBA;
+    
+}
+
+.second-post-text a {
+    color: #B2ACBA;
+}
+
+.second-button {
+    display: inline-block;
+   
+    letter-spacing: 0.16vw;
+    text-transform: uppercase;
+    padding: 1.63vh 1.5rem;
+    border: 2px solid #6200EA ;
+    margin-bottom: 1.245rem;
+    border-radius: 24px;
+    margin-right: 1.66rem;
+}
+
+.second-button a {
+    color: #6200EA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* =============================
+
+    THIRD POST STYLES
+
+=============================*/
+
+.third-post {
+    margin-bottom: 3.91vh;
+    background: #FFFFFF no-repeat center/cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.third-post img {
+    width: 100%;
+    height: 38vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.third-post-text {
+    margin: 1.245rem;
+}
+
+#third-date-comment {
+  padding-top: 1.245rem;  
+}
+
+
+.third-post-text h1 {
+    color: #211138;
+}
+
+.third-post-paragh {
+    color: #211138;
+}
+
+.anchor {
+    color: #B2ACBA;
+    
+}
+
+.third-post-text a {
+    color: #B2ACBA;
+}
+
+.third-button {
+    display: inline-block;
+   
+    letter-spacing: 0.16vw;
+    text-transform: uppercase;
+    padding: 1.63vh 1.5rem;
+    border: 2px solid #6200EA ;
+    margin-bottom: 1.245rem;
+    border-radius: 24px;
+    margin-right: 1.66rem;
+}
+
+.third-button a {
+    color: #6200EA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* =============================
+
+    FOURTH POST STYLES
+
+=============================*/
+
+.fourth-post {
+    margin-bottom: 3.91vh;
+    background: #FFFFFF no-repeat center/cover;
+    border-radius: 15px;
+}
+
+.fourth-post-text {
+    margin: 1.245rem;
+}
+
+#fourth-date-comment {
+    padding-top: 1.245rem;  
+}
+    
+    
+.fourth-post-text h1 {
+    color: #211138;
+}
+    
+.fourth-post-paragh {
+    color: #211138;
+}
+    
+.anchor {
+    color: #B2ACBA;
+        
+}
+    
+.fourth-post-text a {
+        color: #B2ACBA;
+}
+    
+.fourth-button {
+    display: inline-block;
+       
+    letter-spacing: 0.16vw;
+    text-transform: uppercase;
+    padding: 1.63vh 1.5rem;
+    border: 2px solid #6200EA ;
+    margin-bottom: 1.245rem;
+    border-radius: 24px;
+    margin-right: 1.66rem;
+}
+    
+.fourth-button a {
+    color: #6200EA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* =============================
+
+    ASIDE STYLES
+
+=============================*/
+
+.first-container {
+    border-radius: 15px;
+}
+
+.second-container {
+    border-radius: 15px;
+
+}
+
+.box h2 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.16vw;
+    height: 7.8vh;
+    background-color: #6200EA;
+    font-weight: bold;
+    padding-top: 2.86vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* =============================
+
+    ASIDE  - MENU STYLES
+
+=============================*/
+
+
+.menu {
+    display: inline-block;
+    background-color: #FFFFFF;
+
+
+}
+.aside-menu-pic img {
+    float: left;
+    width: 8.785vw;
+    height: 15.625vh;
+    margin-left: 1.464vw;
+    margin-right: 1.464vw;
+    border-radius: 15px;
+}
+
+.aside-pic-paragh {
+    margin-top: 2.604vh;
+    margin-right: 1.464vw;
+    
+}
+
+.aside-pic-paragh h3 {
+    margin-bottom: 1.953vh;
+    color: #6200EA;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.16vw;
+    
+}
+
+.aside-pic-paragh a {
+    text-decoration: none;
+}
+
+#last-aside-menu {
+    padding-bottom: 2.064vh;
+}
+    
+.van {
+    height: 7.8vh;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 2.86vh;
+    border-top: solid #F4F3F5;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+    
+.van a {
+   
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.16vw;
+    text-align: center;
+    text-decoration: none;
+    color: #B2ACBA;
+    
+}
+
+.second-container {
+    margin-top: 3.91vh;
+}
+
+
+li {
+    margin-left: 1.464vw;
+    padding-bottom: 2.34vh;
+    padding-top: 2.21vh;
+}
+
+li a {
+    text-decoration: none;
+    color: #211138;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.16vw;
+}
+
+.line {
+    border-bottom: solid #F4F3F5
+}
+
+.third-container {
+    margin-top: 3.91vh;
+    
+}
+
+ul {
+    background-color: #FFFFFF;
+}
+
+.second-van {
+    height: 7.8vh;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 2.86vh;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.second-van a {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.16vw;
+    text-align: center;
+    text-decoration: none;
+    color: #B2ACBA;
+    
+}
+
+/* =============================
+
+    FOOTER STYLES
+
+=============================*/
+
+footer {
+    margin-top: 33.86vh;
+    background-color: #211138;
+    height: 13.02vh;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 5.6vh;
+    padding-bottom: 5.5.vh;
+    text-transform: uppercase;
+    letter-spacing: 0.16vw;
+    color: #B2ACBA;
+}
+
+span {
+    color: #6200EA;
+}
